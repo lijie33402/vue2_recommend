@@ -17,45 +17,45 @@ store 标准vuex格式，非必须
 |-- package.json  
 |-- public // 公用文件，不经过webpack处理  
 |   |-- favicon.ico  
-|   `-- index.html  
+|    -- index.html  
 |-- src  
 |   |-- App.vue  // 主页面  
 |   |-- api // 接口层  
 |   |   |-- http.js  
-|   |   `-- index.js  
+|   |    -- index.js  
 |   |-- assets // css、image、svg等资源  
 |   |   |-- css // 基础less资源  
 |   |   |   |-- global.less  
 |   |   |   |-- reset.less  
-|   |   |   `-- variables.less  
-|   |   `-- img  
-|   |       `-- logo.png  
+|   |   |    -- variables.less  
+|   |    -- img  
+|   |        -- logo.png  
 |   |-- components // 组件  
 |   |   |-- common  
-|   |   `-- home  
-|   |       `-- HelloWorld.vue  
+|   |    -- home  
+|   |        -- HelloWorld.vue  
 |   |-- main.js  
 |   |-- plugins // 自己或第三方插件  
 |   |   |-- directives.js  
 |   |   |-- filters.js  
-|   |   `-- plugins.js  
+|   |    -- plugins.js  
 |   |-- router  
-|   |   `-- index.js  
+|   |    -- index.js  
 |   |-- store // vuex数据  
 |   |   |-- index.js  
-|   |   `-- modules  
+|   |    -- modules  
 |   |       |-- counter.js  
-|   |       `-- index.js  
+|   |        -- index.js  
 |   |-- utils  
-|   |   `-- config.js  
-|   `-- views // UI层(原则：轻page，重component)  
+|   |    -- config.js  
+|    -- views // UI层(原则：轻page，重component)  
 |       |-- about  
-|       |   `-- About.vue  
+|       |    -- About.vue  
 |       |-- home  
-|       |   `-- Home.vue  
-|       `-- todoList  
-|           `-- TodoList.vue  
-`-- vue.config.js // vue-cli主配置，修改webpack  
+|       |    -- Home.vue  
+|        -- todoList  
+|            -- TodoList.vue  
+ -- vue.config.js // vue-cli主配置，修改webpack  
 
 
 ## Project setup
